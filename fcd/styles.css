@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(to right, #ffe6e6, #fff0f5);
+}
+
+h1 {
+  color: #d63384;
+  font-size: 2rem;
+}
+
+#catImg {
+  width: 280px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+#yesButton {
+  background-color: #28a745;
+  color: white;
+}
+
+#noButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+#message {
+  font-size: 18px;
+  color: #ff1493;
+  margin-top: 20px;
+  min-height: 40px;
+}
